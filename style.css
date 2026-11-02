@@ -285,25 +285,40 @@ img {
     text-align: center;
     padding: 70px 20px;
 }
-.discover-Grid {
+.discover-section {
+    padding: 50px 8%;
+    display: flex;
+    width: 100%;
+}
+.primary-sibling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+}
+.secondary-sibling {
+  width: 66%;
+}
+.discover-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 50px 8%;
 }
-.discover-card card-citrus, {
+.discover-card .card-citrus {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
     flex: 1;
 }
-.discover-card card-design, {
+.discover-card .card-design {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    flex 1;
+    flex: 1;
 }
-.dicover-card card-night, {
+.discover-card .card-night {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
